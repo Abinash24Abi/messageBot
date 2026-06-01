@@ -56,6 +56,10 @@ A mini WhatsApp-like messaging automation platform built using the **MERN Stack*
    QUEUE_TYPE=custom
    REDIS_HOST=127.0.0.1
    REDIS_PORT=6379
+
+   #optional(ai message)
+   SAMBANOVA_API_KEY=your_sambanova_key
+   SAMBANOVA_MODEL=Meta-Llama-3.3-70B-Instruct
    ```
 4. Start the server:
    ```bash
